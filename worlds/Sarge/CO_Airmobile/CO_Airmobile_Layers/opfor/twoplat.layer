@@ -1,0 +1,49 @@
+SCR_AIGroup op_phq_2 : "{0D10CCEEC7B3EC34}Prefabs/Groups/OPFOR/Group_USSR_PlatoonHQ.et" {
+ coords 4423.618 54.668 4453.027
+ m_aStaticWaypoints {
+  "defend_wp3"
+ }
+}
+Turret : "{1A407760EEAE4156}Prefabs/Vehicles/Static/BaconZU23/BaconZU23_Turret_Deployed.et" {
+ components {
+  TILW_VehicleCrewComponent "{6678FA4C790D879C}" {
+   m_spawnTurret 1
+   m_noTurretDismount 1
+  }
+ }
+ coords 4562.245 54.38 4407.687
+}
+$grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+ defend_wp3 {
+  coords 4437.028 58.83 4460.338
+  CompletionRadius 20
+  m_fPriorityLevel 600
+  m_bFastInit 1
+ }
+ defend_wp4 {
+  coords 4324.473 49.273 4426.162
+  CompletionRadius 60
+  m_fPriorityLevel 600
+  m_bFastInit 1
+ }
+}
+$grp SCR_AIGroup : "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et" {
+ op_rf_3 {
+  coords 4423.079 54.219 4446.604
+  m_aStaticWaypoints {
+   "defend_wp3"
+  }
+ }
+ op_rf_4 {
+  coords 4327.34 52.881 4424.042
+  m_aStaticWaypoints {
+   "defend_wp3"
+  }
+ }
+ op_rf_5 {
+  coords 4328.138 53.284 4417.156
+  m_aStaticWaypoints {
+   "defend_wp4"
+  }
+ }
+}

@@ -1,0 +1,25 @@
+SCR_AIGroup : "{0D10CCEEC7B3EC34}Prefabs/Groups/OPFOR/Group_USSR_PlatoonHQ.et" {
+ coords 4481.597 54.666 4387.284
+ m_aStaticWaypoints {
+  "company_wp"
+ }
+}
+SCR_DefendWaypoint company_wp : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+ coords 4530.988 54.608 4365.348
+ CompletionRadius 15
+ m_bFastInit 1
+}
+$grp SCR_AIGroup : "{A2F75E45C66B1C0A}Prefabs/Groups/OPFOR/Group_USSR_MachineGunTeam.et" {
+ {
+  coords 4500.482 54.875 4394.761
+  m_aStaticWaypoints {
+   "company_wp"
+  }
+ }
+ {
+  coords 4492.326 55.076 4393.388
+  m_aStaticWaypoints {
+   "company_wp"
+  }
+ }
+}

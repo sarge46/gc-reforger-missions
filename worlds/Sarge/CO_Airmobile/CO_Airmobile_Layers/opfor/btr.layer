@@ -1,0 +1,130 @@
+$grp Vehicle : "{C012BB3488BEA0C2}Prefabs/Vehicles/Wheeled/BTR70/BTR70.et" {
+ BTR1 {
+  components {
+   TILW_VehicleCrewComponent "{6678FA5DE9C89051}" {
+    m_spawnPilot 1
+    m_spawnTurret 1
+    m_idleGroup 1
+   }
+  }
+  coords 4412.614 55.161 4129.716
+  angleY -134
+ }
+ BTR2 {
+  components {
+   TILW_VehicleCrewComponent "{6678FA5DE9C89051}" {
+    m_spawnPilot 1
+    m_spawnTurret 1
+    m_idleGroup 1
+   }
+  }
+  coords 4452.129 55.415 4109.68
+  angleY -163
+ }
+ BTR3 {
+  components {
+   TILW_VehicleCrewComponent "{6678FA5DE9C89051}" {
+    m_spawnPilot 1
+    m_spawnTurret 1
+    m_idleGroup 1
+   }
+  }
+  coords 4609.7 55.488 4178.883
+  angleY 96
+ }
+ BTR4 {
+  components {
+   TILW_VehicleCrewComponent "{6678FA5DE9C89051}" {
+    m_spawnPilot 1
+    m_spawnTurret 1
+    m_idleGroup 1
+   }
+  }
+  coords 4667.672 53.724 4319.062
+  angleY 107
+ }
+ BTR5 {
+  components {
+   TILW_VehicleCrewComponent "{6678FA5DE9C89051}" {
+    m_spawnPilot 1
+    m_spawnTurret 1
+    m_idleGroup 1
+   }
+  }
+  coords 4539.327 54.606 4399.887
+  angleY 45
+ }
+ BTR6 {
+  components {
+   TILW_VehicleCrewComponent "{6678FA5DE9C89051}" {
+    m_spawnPilot 1
+    m_spawnTurret 1
+    m_idleGroup 1
+   }
+  }
+  coords 4388.648 54.355 4457.594
+  angleY -18
+ }
+ BTR7 {
+  components {
+   TILW_VehicleCrewComponent "{6678FA5DE9C89051}" {
+    m_spawnPilot 1
+    m_spawnTurret 1
+    m_idleGroup 1
+   }
+  }
+  coords 4298.45 53.296 4422.626
+  angleX -9.83
+  angleY -27.707
+  angleZ 4.133
+ }
+ BTR8 {
+  components {
+   TILW_VehicleCrewComponent "{6678FA5DE9C89051}" {
+    m_spawnPilot 1
+    m_spawnTurret 1
+    m_idleGroup 1
+   }
+  }
+  coords 4227.611 54.411 4619.557
+  angleX 2.11
+  angleY -23.354
+  angleZ -1.885
+ }
+ BTR9 {
+  components {
+   TILW_VehicleCrewComponent "{6678FA5DE9C89051}" {
+    m_spawnPilot 1
+    m_spawnTurret 1
+    m_idleGroup 1
+   }
+  }
+  coords 4238.563 55.406 4684.454
+  angleX 0.8
+  angleY 29.636
+  angleZ 0.401
+ }
+ BTR10 {
+  components {
+   TILW_VehicleCrewComponent "{6678FA5DE9C89051}" {
+    m_spawnPilot 1
+    m_spawnTurret 1
+    m_idleGroup 1
+   }
+  }
+  coords 4202.937 54.645 4650.355
+  angleX 0.8
+  angleY -117.364
+  angleZ 0.401
+ }
+}
+$grp Vehicle : "{D9B91FAB817A6033}Prefabs/Vehicles/Wheeled/Ural4320/Ural4320_transport_covered.et" {
+ Ural4320_transport_covered1 {
+  coords 4509.202 54.875 4397.103
+  angleY -54
+ }
+ Ural4320_transport_covered2 {
+  coords 4495.097 54.844 4401.753
+  angleY -88
+ }
+}

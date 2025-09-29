@@ -1,0 +1,28 @@
+$grp Vehicle : "{3EA6F47D95867114}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB.et" {
+ M1025_armed_M2HB1 {
+  coords 1825.627 66.084 6737.419
+  angleY 50
+ }
+ M1025_armed_M2HB2 {
+  coords 1734.612 66.384 6694.997
+  angleY 50
+ }
+}
+Vehicle M923A1_ammo1 : "{92264FF932676C13}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo.et" {
+ coords 1790.687 65.971 6733.854
+ angleY 71
+}
+$grp Vehicle : "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M998_covered_long.et" {
+ M998_covered_long1 {
+  coords 1815.505 66.125 6732.137
+  angleY 60
+ }
+ M998_covered_long2 {
+  coords 1751.964 66.423 6702.92
+  angleY 60
+ }
+}
+Vehicle M923A1_transport1 : "{F1FBD0972FA5FE09}Prefabs/Vehicles/Wheeled/M923A1/M923A1_transport.et" {
+ coords 1776.706 65.969 6727.167
+ angleY 57
+}

@@ -1,0 +1,13 @@
+PS_MissionDescription briefdesc : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ coords 2028.975 65.875 6662.55
+ m_sTitle "Mission Description"
+ m_sTextData "US conducts air assault. UH60s and AH64."\
+ ""\
+ "80% Casuality Limit"\
+ "50 Minute Time Limit"\
+ ""\
+ "0910 Local Time."\
+ "Clear."
+ m_bEmptyFactionVisibility 1
+ m_iOrder 0
+}

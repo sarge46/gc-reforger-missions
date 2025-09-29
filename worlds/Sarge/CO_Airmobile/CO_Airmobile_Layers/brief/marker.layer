@@ -1,0 +1,64 @@
+PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" {
+ components {
+  TILW_AOLimitComponent "{6217617AC21DEB7B}" {
+   m_visibility NONE
+  }
+ }
+ coords 6095.175 56.19 5272.993
+ Points {
+  ShapePoint "{6678FA404ADE2036}" {
+   Position -1014.333 0 457.244
+  }
+  ShapePoint "{6678FA404FADD21C}" {
+   Position -515.401 0 1280.336
+  }
+  ShapePoint "{6678FA4043DCC7DB}" {
+   Position -70.97 0 2937.132
+  }
+  ShapePoint "{6678FA40414F8BE3}" {
+   Position 2140.926 0 2947.685
+  }
+  ShapePoint "{6678FA404741267F}" {
+   Position 2196.989 0 -5314.666
+  }
+  ShapePoint "{6678FA405A6550BF}" {
+   Position -3436.563 0 -5281.799
+  }
+  ShapePoint "{6678FA405F186043}" {
+   Position -4399.348 0 -5277.829
+  }
+  ShapePoint "{6678FA40564B04DD}" {
+   Position -3414.711 0 -2389.298
+  }
+  ShapePoint "{6678FA4054E3A8E4}" {
+   Position -2394.578 0 -2092.567
+  }
+  ShapePoint "{6678FA41AA8D19F9}" {
+   Position -1899.206 0 -2135.609
+  }
+  ShapePoint "{6678FA41AEE5D8C8}" {
+   Position -962.694 0 -2932.555
+  }
+  ShapePoint "{6678FA41ACE506CA}" {
+   Position 438.934 0 -1100.12
+  }
+  ShapePoint "{6678FA41B9C37D60}" {
+   Position -700.816 0 -552.393
+  }
+  ShapePoint "{6678FA41BDCA4C2A}" {
+   Position -780.89 0 -48.381
+  }
+ }
+}
+PS_ManualMarker grease_mark : "{CD85ADE9E0F54679}PrefabsEditable/Markers/EditableMarker.et" {
+ coords 4814.929 53.732 4867.553
+ angleY 90
+ m_sImageSet "{06A0A6BCCF8F5E8A}worlds/Sarge/CO_Airmobile/airmobilemap.edds"
+ m_sImageSetGlow ""
+ m_MarkerColor 0 0 0 1
+ m_sQuadName ""
+ m_fWorldSize 15000
+ m_bVisibleForEmptyFaction 1
+ m_bShowForAnyFaction 1
+ m_bringToFront 0
+}

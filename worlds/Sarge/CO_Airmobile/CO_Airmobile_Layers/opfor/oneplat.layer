@@ -1,0 +1,46 @@
+SCR_AIGroup op_phq_1 : "{0D10CCEEC7B3EC34}Prefabs/Groups/OPFOR/Group_USSR_PlatoonHQ.et" {
+ coords 4221.98 55.988 4606.967
+ m_aStaticWaypoints {
+  "defend_wp1"
+ }
+}
+$grp SCR_DefendWaypoint : "{93291E72AC23930F}Prefabs/AI/Waypoints/AIWaypoint_Defend.et" {
+ defend_wp1 {
+  coords 4255.212 53.502 4600.158
+  CompletionRadius 50
+  m_fPriorityLevel 600
+  m_bFastInit 1
+ }
+ defend_wp2 {
+  coords 4172.218 63.167 4736.736
+  CompletionRadius 80
+  m_fPriorityLevel 600
+  m_bFastInit 1
+ }
+}
+SCR_AIGroup op_rec_1 : "{A2F75E45C66B1C0A}Prefabs/Groups/OPFOR/Group_USSR_MachineGunTeam.et" {
+ coords 4123.257 54.494 4752.008
+ m_aStaticWaypoints {
+  "defend_wp2"
+ }
+}
+SCR_AIGroup op_rec_2 : "{CB58D90EA14430AD}Prefabs/Groups/OPFOR/Group_USSR_SentryTeam.et" {
+ coords 4216.445 55.842 4789.639
+ m_aStaticWaypoints {
+  "defend_wp7"
+ }
+}
+$grp SCR_AIGroup : "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et" {
+ op_rf_1 {
+  coords 4256.172 54.09 4609.077
+  m_aStaticWaypoints {
+   "defend_wp1"
+  }
+ }
+ op_rf_2 {
+  coords 4328.607 52.811 4575.438
+  m_aStaticWaypoints {
+   "defend_wp8"
+  }
+ }
+}

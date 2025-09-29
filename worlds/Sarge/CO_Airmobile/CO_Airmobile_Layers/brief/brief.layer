@@ -1,0 +1,58 @@
+$grp PS_MissionDescription : "{3136BE42592F3B1B}PrefabsEditable/MissionDescription/EditableMissionDescription.et" {
+ sit {
+  coords 2022.656 65.656 6628.056
+  m_sTitle "Situation"
+  m_sTextData "0910 Local Time"\
+  ""\
+  "Enemy Forces - Soviet Motor Rifle Company holding the bridge and surrounding village of Ruha."\
+  ""\
+  "Friendly Forces - A Company is at the PZ. Rotary Wing Assets have assembled at their TAA."\
+  ""\
+  "Supporting fixed wing assets neutralized several SAM sites invof OBJ PAT."
+  m_bShowForAnyFaction 1
+ }
+ miz {
+  coords 2017.638 65.654 6621.919
+  m_sTitle "Mission"
+  m_sTextData "Alpha Company attacks OBJECTIVE PAT, bridge intact, NLT 1000 local time."
+  m_bShowForAnyFaction 1
+  m_iOrder 1
+ }
+ exc {
+  coords 2009.227 65.624 6617.177
+  m_sTitle "Execution"
+  m_sTextData "Less than 80% Casualities."\
+  "OBJ PAT cleared NLT 1000 Local."\
+  ""\
+  "NFZ (No Fly Zone) is also the AO Limit."
+  m_bShowForAnyFaction 1
+  m_iOrder 2
+ }
+ ss {
+  coords 1999.598 65.686 6610.452
+  m_sTitle "Service / Support"
+  m_sTextData "EPWs and CASEVAC per SOP."\
+  "Limited ammunition and medical supply available from CSS WALMART."\
+  "(Items can be directly moved into the helicopters from the vehicles)"
+  m_bShowForAnyFaction 1
+  m_iOrder 3
+ }
+ com {
+  coords 1993.873 65.781 6615.766
+  m_sTitle "Command / Signal"
+  m_sDescriptionLayout "{B6DE04F7CF7A95DA}UI/MissionDescription/DescriptionEditableScrollable.layout"
+  m_sTextData "43.5 Mhz - Alpha Company Net"\
+  ""\
+  "41 Mhz - Air Net"\
+  ""\
+  ""\
+  "CCA RW Request:"\
+  "X This is Y"\
+  "My location is _____ marked by _____"\
+  "Target description is _____"\
+  "Target location is _____"\
+  "Target is marked by _____"
+  m_bShowForAnyFaction 1
+  m_iOrder 4
+ }
+}

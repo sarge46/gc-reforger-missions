@@ -1,0 +1,119 @@
+Vehicle M923A1_tanker1 : "{2BE1F8B9299B67C1}Prefabs/Vehicles/Wheeled/M923A1/M923A1_tanker.et" {
+ coords 1063.411 68.907 2088.912
+ angleY -99
+}
+Vehicle M923A1_engineer1 : "{2D74C39A650A3030}Prefabs/Vehicles/Wheeled/M923A1/M923A1_engineer.et" {
+ coords 1084.541 69.594 2046.012
+ angleY 55
+}
+Vehicle M923A1_ammo2 : "{92264FF932676C13}Prefabs/Vehicles/Wheeled/M923A1/M923A1_ammo.et" {
+ coords 1071.492 69.72 2041.446
+ angleY 81
+}
+$grp Vehicle : "{9B1BF9644E0378D6}Prefabs/Vehicles/Wheeled/M998/M998_covered_long.et" {
+ farp_med {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECB549327C1}" {
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{667A08F561C4A780}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{0D9A5DCF89AE7AA9}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{667A08F57C56ADF1}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{5B2FD067D70C1E8F}Prefabs/Items/Medicine/EpinephrineInjection/ACE_Medical_EpinephrineInjection.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{667A08F54EAAC90F}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+      }
+      NumSlots 30
+     }
+    }
+   }
+  }
+  coords 1050.708 69.825 2046.802
+  angleY -179
+ }
+ farp_smallarms {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECB549327C1}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{667A08F561C4A780}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{667A08F57C56ADF1}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{9C5C20FB0E01E64F}Prefabs/Weapons/Launchers/M72/Launcher_M72A3.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{667A08F54EAAC90F}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{4D2C1E8F3A81F894}Prefabs/Weapons/Magazines/Box_762x51_M60_100rnd_4Ball_1Tracer.et"
+      }
+      NumSlots 30
+     }
+    }
+   }
+  }
+  coords 1036.722 69.704 2070.918
+  angleY -47
+ }
+ farp_exp {
+  components {
+   SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+    MultiSlots {
+     MultiSlotConfiguration "{5A60CECB549327C1}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{667A08F47D7E2964}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{1663496AE5B9F10B}Prefabs/Weapons/Ammo/Ammo_Grenade_HEDP_M433.et"
+      }
+      NumSlots 50
+     }
+     MultiSlotConfiguration "{667A08F561C4A780}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{AD2709F5F6F0D871}Prefabs/Weapons/Grenades/M18/Smoke_M18_Base.et"
+      }
+      NumSlots 30
+     }
+     MultiSlotConfiguration "{667A08F57C56ADF1}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{3343A055A83CB30D}Prefabs/Weapons/Grenades/M18/Smoke_M18_Red.et"
+      }
+      NumSlots 20
+     }
+     MultiSlotConfiguration "{667A08F54EAAC90F}" {
+      SlotTemplate InventoryStorageSlot Bandages {
+       Prefab "{D41D22DD1B8E921E}Prefabs/Weapons/Grenades/M18/Smoke_M18_Green.et"
+      }
+      NumSlots 30
+     }
+    }
+   }
+  }
+  coords 1040.737 69.625 2076.637
+  angleY -27
+ }
+}

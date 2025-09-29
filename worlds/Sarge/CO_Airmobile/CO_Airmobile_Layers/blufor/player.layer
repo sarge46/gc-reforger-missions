@@ -1,0 +1,64 @@
+$grp SCR_AIGroup : "{3CB49E81F6BAED00}Prefabs/Groups/BLUFOR/US/Army/1989/Lt Inf (Woodland)/P/Group_US_1989_BDU_RifleSquad_P.et" {
+ p1_s1 {
+  components {
+   PS_GroupCallsignAssigner "{6587209DC264F2AF}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1839.095 65.832 6690.833
+  angleY 150
+ }
+ p1_s2 {
+  components {
+   PS_GroupCallsignAssigner "{6587209DC264F2AF}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1823.319 65.834 6682.403
+  angleY 150
+ }
+ p2_s1 {
+  components {
+   PS_GroupCallsignAssigner "{6587209DC264F2AF}" {
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 1863.624 65.733 6657.167
+  angleY 150
+ }
+ p2_s2 {
+  components {
+   PS_GroupCallsignAssigner "{6587209DC264F2AF}" {
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 2
+   }
+  }
+  coords 1847.847 65.794 6648.738
+  angleY 150
+ }
+}
+SCR_AIGroup companyhq : "{7894768CD3BE3F10}Prefabs/Groups/BLUFOR/US/Army/1989/Lt Inf (Woodland)/P/Group_US_1989_BDU_COY_HQ_P.et" {
+ coords 1887.368 65.819 6699.603
+}
+$grp SCR_AIGroup : "{89D481D41D11BF1C}Prefabs/Groups/BLUFOR/US/Army/1989/Lt Inf (Woodland)/P/Group_US_1989_BDU_PLT_HQ_P.et" {
+ plt1 {
+  components {
+   PS_GroupCallsignAssigner "{6587209DC267F93E}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 1852.716 65.793 6700.502
+  angleY 78.836
+ }
+ plt2 {
+  components {
+   PS_GroupCallsignAssigner "{6587209DC267F93E}" {
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 1884.406 65.695 6677.163
+ }
+}

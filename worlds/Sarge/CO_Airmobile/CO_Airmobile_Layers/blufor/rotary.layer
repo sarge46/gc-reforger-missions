@@ -1,0 +1,54 @@
+$grp SCR_AIGroup : "{1E91FCDB0DA40A55}Prefabs/Groups/BLUFOR/Group_US_SentryTeam_p.et" {
+ {
+  components {
+   PS_GroupCallsignAssigner "{6678FA4BAD5B8C33}" {
+    m_iCompanyCallsign 8
+   }
+  }
+  coords 346.122 66.22 5221.979
+  m_aUnitPrefabSlots {
+   "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_HeliPilot_P.et" "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_HeliPilot_P.et" "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_HeliPilot_P.et" "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_HeliPilot_P.et"
+  }
+  m_aStaticVehicles {
+   "AUS_UH60_armed1" "AUS_UH60_armed2" "AUS_UH60_armed3" "AUS_UH60_armed4"
+  }
+  m_sCustomNameSet "Quail 5"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{6678FA4BA7BCC18D}" {
+    m_iCompanyCallsign 9
+   }
+  }
+  coords 335.86 64.282 5223.539
+  m_aUnitPrefabSlots {
+   "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_HeliPilot_P.et" "{E9601333852C637F}Prefabs/Characters/Factions/BLUFOR/US_Army/Deprecated/Character_US_HeliPilot_P.et"
+  }
+  m_aStaticVehicles {
+   "AH64D_AGM114L_X1"
+  }
+  m_sCustomNameSet "Sheriff 2"
+ }
+}
+Vehicle AH64D_AGM114L_X1 : "{397971C2026D588F}Prefabs/Vehicles/Helicopters/AH64D/AH64D_AGM114L_X2.et" {
+ coords 342.87 64.42 5259.112
+ angleY 65
+}
+$grp Vehicle : "{48F288F5BFF10D8B}Prefabs/Vehicles/Helicopters/AUS_MH60/AUS_UH60_armed.et" {
+ AUS_UH60_armed2 {
+  coords 385.139 64.343 5212.378
+  angleY 67
+ }
+ AUS_UH60_armed4 {
+  coords 457.698 64.421 5247.044
+  angleY 67
+ }
+ AUS_UH60_armed3 {
+  coords 416.16 64.12 5227.534
+  angleY 67
+ }
+ AUS_UH60_armed1 {
+  coords 354.958 64.268 5197.175
+  angleY 67
+ }
+}

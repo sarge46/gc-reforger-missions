@@ -1,0 +1,80 @@
+$grp ParticleEffectEntity {
+ {
+  coords 4501.598 58.918 3962.939
+  EffectPath "{93CAB5E5559B5C32}Particles/Vehicle/Vehicle_fire_engine_big.ptc"
+ }
+ {
+  coords 4831.013 57.975 4050.045
+  angleX 46.166
+  EffectPath "{0EDE755E5A808E81}Particles/Logistics/Fire/Ammunition_Fire/Ammunition_Fire_small.ptc"
+ }
+ {
+  coords 4832.842 58.044 4051.388
+  EffectPath "{48E90427E75C84C7}Particles/Logistics/Fire/Tire/Fire_wheel_small.ptc"
+ }
+}
+$grp DecalEntity : "{4E2502622DA0DB28}Prefabs/Decals/Miscellaneous/Decal_Damage_Burnt_01.et" {
+ {
+  coords 4503.104 56.718 3964.874
+  angleX -90
+  angleY 0
+  angleZ 0
+  scale 10
+ }
+ {
+  coords 4833.156 56.73 4054.116
+  angleX -90
+  angleY 0
+  angleZ 0
+  scale 10
+ }
+ {
+  coords 4847.342 56.568 4047.273
+  angleX -90
+  angleY -180
+  angleZ -180
+  scale 10
+ }
+ {
+  coords 4823.665 56.85 4037.165
+  angleX -90
+  angleY -180
+  angleZ -180
+  scale 10
+ }
+ {
+  coords 4483.924 56.761 3970.712
+  angleX -90
+  angleY 180
+  angleZ 180
+  scale 10
+ }
+ {
+  coords 4515.835 56.601 3950.613
+  angleX -90
+  angleY 0
+  angleZ 0
+  scale 10
+ }
+ {
+  coords 4473.983 56.45 3954.702
+  angleX -90
+  angleY -180
+  angleZ -180
+  scale 10
+ }
+}
+$grp GenericEntity : "{C707F02B5A64AA08}Prefabs/Props/Wrecks/BRDM2_wreck.et" {
+ {
+  coords 4501.555 57.096 3962.929
+  angleX -0.055
+  angleY -64.998
+  angleZ -65.557
+ }
+ {
+  coords 4831.606 57.108 4052.171
+  angleX -0.055
+  angleY -64.998
+  angleZ -65.557
+ }
+}

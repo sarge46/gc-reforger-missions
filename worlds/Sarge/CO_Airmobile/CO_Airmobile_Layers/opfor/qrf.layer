@@ -1,0 +1,22 @@
+$grp GenericEntity {
+ qrf_spawn {
+  coords 5853.975 56.969 4664.91
+ }
+ qrf_spawn2 {
+  coords 6846.469 61.69 4759.007
+ }
+ qrfflare {
+  coords 4482.856 201.4 4345.437
+ }
+ qrf_spawn3 {
+  coords 3784.609 56.685 2160.204
+ }
+ qrf_spawn4 {
+  coords 4051.587 70.918 2710.484
+ }
+}
+SCR_EntityWaypoint qrfattack_wp : "{1B0E3436C30FA211}Prefabs/AI/Waypoints/AIWaypoint_Attack.et" {
+ coords 4456.013 54.063 4384.372
+ CompletionRadius 150
+ m_fPriorityLevel 600
+}

@@ -1,0 +1,295 @@
+$grp TILW_FactionTriggerEntity : "{8C576D46F6579229}Prefabs/Logic/Triggers/TILW_FactionTrigger.et" {
+ objpat_trigger {
+  coords 4420.8 54.219 4416.729
+  m_queryRadius 150
+  m_captureTime 60
+  m_locationName "OBJ PAT"
+  m_flagName "objpat_flag"
+  m_ownerFactionKey "US"
+ }
+ qrf_trigger {
+  coords 4443.853 54.096 4389.093
+  m_queryRadius 350
+  m_locationName "OBJ PAT"
+  m_flagName "callqrf_flag"
+  m_stopAfterFirstChange 1
+  m_ownerFactionKey "US"
+  m_ratioThreshold 0.01
+ }
+}
+TILW_MissionFrameworkEntity : "{8F846D0FD5D6EA51}Prefabs/MP/TILW_MissionFramework.et" {
+ coords 4608.505 51.472 4618.955
+ m_missionEvents {
+  TILW_MissionEvent "{6678FA458468AF5D}" {
+   m_name "callqrf"
+   m_instructions {
+    TILW_SpawnGroupInstruction "{6678FA451E41431E}" {
+     m_executionDelay 0
+     m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+     m_locationName "qrf_spawn"
+     m_waypointNames {
+      "qrfattack_wp"
+     }
+    }
+    TILW_SpawnGroupInstruction "{6678FA7AA25A27E9}" {
+     m_executionDelay 3
+     m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+     m_locationName "qrf_spawn"
+     m_waypointNames {
+      "qrfattack_wp"
+     }
+    }
+    TILW_SpawnGroupInstruction "{6678FA7AA132D3D9}" {
+     m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+     m_locationName "qrf_spawn"
+     m_waypointNames {
+      "qrfattack_wp"
+     }
+    }
+    TILW_SpawnGroupInstruction "{6678FA7AA046AC2E}" {
+     m_executionDelay 4
+     m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+     m_locationName "qrf_spawn"
+     m_waypointNames {
+      "qrfattack_wp"
+     }
+    }
+    TILW_SpawnGroupInstruction "{667A08F8ADD3FE85}" {
+     m_executionDelay 1
+     m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+     m_locationName "qrf_spawn4"
+     m_waypointNames {
+      "qrfattack_wp"
+     }
+    }
+    TILW_SpawnGroupInstruction "{667A08F8A6C4E681}" {
+     m_executionDelay 2
+     m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+     m_locationName "qrf_spawn4"
+     m_waypointNames {
+      "qrfattack_wp"
+     }
+    }
+    TILW_SpawnGroupInstruction "{667A08F8BA7B38F9}" {
+     m_executionDelay 3
+     m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+     m_locationName "qrf_spawn4"
+     m_waypointNames {
+      "qrfattack_wp"
+     }
+    }
+    TILW_SpawnGroupInstruction "{667A08F8BEA64D12}" {
+     m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+     m_locationName "qrf_spawn4"
+     m_waypointNames {
+      "qrfattack_wp"
+     }
+    }
+    TILW_SpawnGroupInstruction "{667A08F8B22DB4EA}" {
+     m_executionDelay 6
+     m_prefab "{E552DABF3636C2AD}Prefabs/Groups/OPFOR/Group_USSR_RifleSquad.et"
+     m_locationName "qrf_spawn4"
+     m_waypointNames {
+      "qrfattack_wp"
+     }
+    }
+    TILW_SpawnVehicleInstruction "{6678FA7A857B2D54}" {
+     m_executionDelay 60
+     m_prefab "{1DC01AAACFFA8B63}Prefabs/Vehicles/Tracked/BMP1/BMP1_base.et"
+     m_locationName "qrf_spawn2"
+     m_spawnCargo 0
+     m_waypointNames {
+      "qrfattack_wp"
+     }
+    }
+    TILW_SpawnVehicleInstruction "{6678FA7AE2C1D6CD}" {
+     m_executionDelay 50
+     m_prefab "{1DC01AAACFFA8B63}Prefabs/Vehicles/Tracked/BMP1/BMP1_base.et"
+     m_locationName "qrf_spawn2"
+     m_spawnCargo 0
+     m_waypointNames {
+      "qrfattack_wp"
+     }
+    }
+    TILW_SpawnVehicleInstruction "{667A08F94C030BAF}" {
+     m_executionDelay 30
+     m_prefab "{1DC01AAACFFA8B63}Prefabs/Vehicles/Tracked/BMP1/BMP1_base.et"
+     m_locationName "qrf_spawn3"
+     m_spawnCargo 0
+     m_waypointNames {
+      "qrfattack_wp"
+     }
+    }
+    TILW_SpawnVehicleInstruction "{667A08F947BF6E79}" {
+     m_executionDelay 25
+     m_prefab "{1DC01AAACFFA8B63}Prefabs/Vehicles/Tracked/BMP1/BMP1_base.et"
+     m_locationName "qrf_spawn3"
+     m_spawnCargo 0
+     m_waypointNames {
+      "qrfattack_wp"
+     }
+    }
+    TILW_SpawnPrefabInstruction "{667A08E033C2C4A5}" {
+     m_executionDelay 60
+     m_prefab "{E21BEA0371574949}Prefabs/Weapons/Ammo/FlareEffect_40mm_M662_Red.et"
+     m_locationName "qrfflare"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6678FA7AFA1D83B5}" {
+    m_flagName "callqrf_flag"
+   }
+  }
+  TILW_MissionEvent "{6678FA7AD74BAA77}" {
+   m_name "timelimit - 50m"
+   m_instructions {
+    TILW_SendMessageInstruction "{6678FA7A2E3A7F0D}" {
+     m_executionDelay 3000
+     m_messageTitle "Time Limit"
+     m_messageBody "Time Limit"
+    }
+   }
+   m_condition TILW_LiteralTerm "{6678FA7A224F53B6}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{667A08E23C484FC4}" {
+   m_name "assignwp 1pl"
+   m_instructions {
+    TILW_AssignWaypointsInstruction "{667A08E232D4BEFA}" {
+     m_groupName "op_phq_1"
+     m_waypointNames {
+      "defend_wp1"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{667A08E1AFEDC5EC}" {
+     m_groupName "op_rec_1"
+     m_waypointNames {
+      "defend_wp2"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{667A08E1E3F4EBEC}" {
+     m_groupName "op_rec_2"
+     m_waypointNames {
+      "defend_wp2"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{667A08E1FD2405AB}" {
+     m_groupName "op_rf_1"
+     m_waypointNames {
+      "defend_wp1"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{667A08E1F48FF8B3}" {
+     m_groupName "op_rf_2"
+     m_waypointNames {
+      "defend_wp1"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{667A08E1F9911AED}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{667A08E1C080B292}" {
+   m_name "assignwp 2pl"
+   m_instructions {
+    TILW_AssignWaypointsInstruction "{667A08E1C080B235}" {
+     m_executionDelay 3
+     m_groupName "op_phq_2"
+     m_waypointNames {
+      "defend_wp3"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{667A08E1C080B237}" {
+     m_executionDelay 3
+     m_groupName "op_rf_3"
+     m_waypointNames {
+      "defend_wp3"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{667A08E1C080B238}" {
+     m_executionDelay 3
+     m_groupName "op_rf_4"
+     m_waypointNames {
+      "defend_wp4"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{667A08E1C080B239}" {
+     m_executionDelay 3
+     m_groupName "op_rf_5"
+     m_waypointNames {
+      "defend_wp4"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{667A08E1C080B23C}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{667A08EE9269F3A1}" {
+   m_name "caualitylimithit"
+   m_instructions {
+    TILW_SendMessageInstruction "{667A08EEED16456F}" {
+     m_executionDelay 0
+     m_messageTitle "80% Dead Blufor Killed"
+     m_messageBody "CO got himself 80% dead blufor killed"
+    }
+   }
+   m_condition TILW_LiteralTerm "{667A08EEC151F11F}" {
+    m_flagName "casualitylimit"
+   }
+  }
+  TILW_MissionEvent "{667A08E08E8174BB}" {
+   m_name "assignwp 3pl"
+   m_instructions {
+    TILW_AssignWaypointsInstruction "{667A08E08E8175C8}" {
+     m_groupName "op_phq_3"
+     m_waypointNames {
+      "defend_wp5"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{667A08E08E8175CB}" {
+     m_groupName "op_rf_6"
+     m_waypointNames {
+      "defend_wp5"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{667A08E08E8175CC}" {
+     m_groupName "op_rf_7"
+     m_waypointNames {
+      "defend_wp6"
+     }
+    }
+    TILW_AssignWaypointsInstruction "{667A08E08E8175CD}" {
+     m_groupName "op_rf_8"
+     m_waypointNames {
+      "defend_wp6"
+     }
+    }
+   }
+   m_condition TILW_LiteralTerm "{667A08E08E8175CE}" {
+    m_invertTerm 1
+   }
+  }
+  TILW_MissionEvent "{667A08F824957EAF}" {
+   m_name "captured"
+   m_instructions {
+    TILW_SendMessageInstruction "{667A08F83DB7C0D4}" {
+     m_executionDelay 0
+     m_messageTitle "Objective Captured"
+     m_messageBody "OBJ PAT Captured"
+    }
+   }
+   m_condition TILW_LiteralTerm "{667A08F831D913A0}" {
+    m_flagName "objpat_flag"
+   }
+  }
+ }
+ m_casualtyFlags {
+  TILW_FactionPlayersKilledFlag "{6678FA45A3B5479E}" {
+   m_flagName "casualitylimit"
+   m_factionKey "US"
+   m_casualtyRatio 0.8
+  }
+ }
+}
