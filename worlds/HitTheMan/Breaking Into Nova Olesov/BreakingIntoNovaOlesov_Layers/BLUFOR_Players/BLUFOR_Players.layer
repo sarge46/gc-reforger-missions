@@ -18,6 +18,24 @@ GenericEntity : "{59E846445A56B65C}Prefabs/Props/Military/AmmoBoxes/US/Equipment
      }
      NumSlots 4
     }
+    MultiSlotConfiguration "{673EB8BA5D469203}" {
+     SlotTemplate InventoryStorageSlot hbn {
+      Prefab "{5D694BB6F4A3819B}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Green.et"
+     }
+     NumSlots 50
+    }
+    MultiSlotConfiguration "{673EB8BA517AEE6C}" {
+     SlotTemplate InventoryStorageSlot hbn {
+      Prefab "{CE4BDC1B0C4C6965}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_Orange.et"
+     }
+     NumSlots 50
+    }
+    MultiSlotConfiguration "{673EB8BA56F02F67}" {
+     SlotTemplate InventoryStorageSlot hbn {
+      Prefab "{9361BEC03E52E6F8}Prefabs/Weapons/Handguns/Handheld Rocket Flares/Schermuly/Schermuly_Rocket_Flare_White.et"
+     }
+     NumSlots 50
+    }
    }
   }
   ActionsManagerComponent "{5476B36C403D4CC0}" {
@@ -32,7 +50,8 @@ GenericEntity : "{59E846445A56B65C}Prefabs/Props/Military/AmmoBoxes/US/Equipment
 $grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian Army/P/Group_CAF_1993_Rifle_Sect_P.et" {
  CAFPL_HQ_1 {
   components {
-   PS_GroupCallsignAssigner "{651CBACDB1382F58}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 1
     m_iPlatoonCallsign 1
     m_iSquadCallsign 1
@@ -51,7 +70,8 @@ $grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
  }
  CAFRifle_11 {
   components {
-   PS_GroupCallsignAssigner "{651CBACDB1382F58}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 1
     m_iPlatoonCallsign 1
     m_iSquadCallsign 2
@@ -74,7 +94,8 @@ $grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
  }
  CAFRifle_12 {
   components {
-   PS_GroupCallsignAssigner "{651CBACDB1382F58}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 1
     m_iPlatoonCallsign 1
     m_iSquadCallsign 3
@@ -97,7 +118,8 @@ $grp SCR_AIGroup : "{F9D2A10B5E4A9DCE}Prefabs/Groups/BLUFOR/GC_CAF/1993 Canadian
  }
  CAFWeap23 {
   components {
-   PS_GroupCallsignAssigner "{651CBACDB1382F58}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 1
     m_iPlatoonCallsign 1
     m_iSquadCallsign 5

@@ -7,7 +7,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 3
    }
@@ -15,7 +16,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   coords 8615.313 96.118 9288.896
   angles 0 -45.389 0
   m_aUnitPrefabSlots {
-   "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_P.et"
+   "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_NoRadio_P.et"
    "{70AE8D0AF2E319D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_AR_P.et"
    "{A2B3DB1BABEF1F4E}worlds/HitTheMan/Nadezhda Mine Clearence/Prefabs/Character_USSR_MSV80_AT_P_HTM.et"
    "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Rifleman_P.et"
@@ -30,7 +31,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 3
     m_iSquadCallsign 1
@@ -50,7 +52,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 3
     m_iSquadCallsign 4
@@ -59,7 +62,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   coords 8624.368 95.767 9288.585
   angles 0 135.89 0
   m_aUnitPrefabSlots {
-   "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_P.et"
+   "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_NoRadio_P.et"
    "{70AE8D0AF2E319D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_AR_P.et"
    "{A2B3DB1BABEF1F4E}worlds/HitTheMan/Nadezhda Mine Clearence/Prefabs/Character_USSR_MSV80_AT_P_HTM.et"
    "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Rifleman_P.et"
@@ -74,7 +77,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 3
     m_iSquadCallsign 3
@@ -83,7 +87,7 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
   coords 8619.064 96.092 9283.692
   angles 0 -135.486 0
   m_aUnitPrefabSlots {
-   "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_P.et"
+   "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_NoRadio_P.et"
    "{70AE8D0AF2E319D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_AR_P.et"
    "{A2B3DB1BABEF1F4E}worlds/HitTheMan/Nadezhda Mine Clearence/Prefabs/Character_USSR_MSV80_AT_P_HTM.et"
    "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Rifleman_P.et"
@@ -97,10 +101,11 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 5
-    m_iSquadCallsign 5
+    m_iSquadCallsign 9
    }
   }
   coords 8632.379 95.623 9317.488
@@ -118,10 +123,11 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 5
-    m_iSquadCallsign 6
+    m_iSquadCallsign 10
    }
   }
   coords 8624.779 95.606 9311.245
@@ -139,7 +145,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 3
     m_iSquadCallsign 0
@@ -159,16 +166,17 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
-    m_iPlatoonCallsign 4
-    m_iSquadCallsign 4
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 6
    }
   }
   coords 8595.83 95.491 9317.407
   angles 0 135.89 0
   m_aUnitPrefabSlots {
-   "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_P.et"
+   "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_NoRadio_P.et"
    "{70AE8D0AF2E319D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_AR_P.et"
    "{A2B3DB1BABEF1F4E}worlds/HitTheMan/Nadezhda Mine Clearence/Prefabs/Character_USSR_MSV80_AT_P_HTM.et"
    "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Rifleman_P.et"
@@ -183,10 +191,11 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
-    m_iPlatoonCallsign 4
-    m_iSquadCallsign 1
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 5
    }
   }
   coords 8598.335 95.465 9319.821
@@ -203,15 +212,17 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
-    m_iPlatoonCallsign 4
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 7
    }
   }
   coords 8586.776 95.732 9317.718
   angles 0 -45.389 0
   m_aUnitPrefabSlots {
-   "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_P.et"
+   "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_NoRadio_P.et"
    "{70AE8D0AF2E319D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_AR_P.et"
    "{A2B3DB1BABEF1F4E}worlds/HitTheMan/Nadezhda Mine Clearence/Prefabs/Character_USSR_MSV80_AT_P_HTM.et"
    "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Rifleman_P.et"
@@ -226,16 +237,17 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
-    m_iPlatoonCallsign 4
-    m_iSquadCallsign 3
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 8
    }
   }
   coords 8590.527 95.483 9312.515
   angles 0 -135.486 0
   m_aUnitPrefabSlots {
-   "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_P.et"
+   "{A5F4D7FEBDB57183}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_SL_NoRadio_P.et"
    "{70AE8D0AF2E319D6}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_AR_P.et"
    "{A2B3DB1BABEF1F4E}worlds/HitTheMan/Nadezhda Mine Clearence/Prefabs/Character_USSR_MSV80_AT_P_HTM.et"
    "{A491F9108F01E180}Prefabs/Characters/Factions/OPFOR/USSR_Army/MotorRifle_1980/Character_USSR_MSV80_Rifleman_P.et"

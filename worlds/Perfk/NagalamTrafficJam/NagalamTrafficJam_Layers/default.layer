@@ -1,7 +1,5 @@
-SCR_MapEntity MapEntity_Kunar {
- coords 2893.436 9.999 3197.449
- "Map Geometry Data" "{E25E842F90019134}Worlds/Kunar/GameMaster_Kunar.topo"
- "Satellite background image" "{5A4E3A4FCBF014CE}Worlds/Kunar/GameMaster_Kunar.edds"
+SCR_MapEntity MapEntity_Kunar1 : "{C24FAF6F2DDD6735}Prefabs/MapEntity_Kunar.et" {
+ coords 2893.479 10 3198.098
 }
 SCR_AIWorld : "{0CB65E4CC0AFBCC0}Prefabs/SCR_AIWorld_Kunar.et" {
  coords 267.998 39.667 3101.905
@@ -44,6 +42,10 @@ PolylineShapeEntity : "{85222A2744768C81}Prefabs/Logic/AOLimit/TILW_AOLimit.et" 
    m_killTimer 30
    m_defaultColor 1 0 0 1
    m_lineWidth 4
+  }
+  TILW_MapShapeComponent "{6508F54F9B461198}" {
+   Enabled 1
+   m_drawLine 1
   }
  }
  coords 159.344 97.225 3287.058
@@ -125,7 +127,7 @@ TILW_MissionFrameworkEntity MissionFramework : "{8F846D0FD5D6EA51}Prefabs/MP/TIL
    m_instructions {
     TILW_SpawnGroupInstruction "{65732C275FAF3C9B}" {
      m_executionDelay 0
-     m_prefab "{E9969D610C120940}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_1.et"
+     m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_04_Fighters.et"
      m_locationName "spawn_Runaway"
      m_waypointNames {
       "wp_Runaway"
@@ -141,7 +143,7 @@ TILW_MissionFrameworkEntity MissionFramework : "{8F846D0FD5D6EA51}Prefabs/MP/TIL
    m_instructions {
     TILW_SpawnGroupInstruction "{65B6ACED3569BD57}" {
      m_executionDelay 0
-     m_prefab "{E9969D610C120940}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_Fireteam_1.et"
+     m_prefab "{23DFFD3FDEECE9D7}worlds/Perfk/Prefabs/Groups/PK_MUJ_04_Fighters.et"
      m_locationName "Spawn_hiltop_1"
      m_waypointNames {
       "WP_SD_Hilltop"
@@ -149,7 +151,7 @@ TILW_MissionFrameworkEntity MissionFramework : "{8F846D0FD5D6EA51}Prefabs/MP/TIL
     }
     TILW_SpawnGroupInstruction "{6660B0D23D297CD5}" {
      m_executionDelay 10
-     m_prefab "{9DE1C345404CDCA8}worlds/Perfk/Prefabs/Groups/PK_GC_INS_Afghan_AT_team.et"
+     m_prefab "{247DB5CD3CBA7418}worlds/Perfk/Prefabs/Groups/PK_MUJ_03_AT_Fighters.et"
      m_locationName "Spawn_hiltop_1"
      m_waypointNames {
       "WP_SD_Hilltop"

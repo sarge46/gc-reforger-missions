@@ -14,7 +14,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 3
    }
@@ -36,7 +37,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 3
     m_iSquadCallsign 1
@@ -58,7 +60,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 3
     m_iSquadCallsign 4
@@ -81,7 +84,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 3
     m_iSquadCallsign 3
@@ -104,7 +108,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
     m_iPlatoonCallsign 3
     m_iSquadCallsign 0
@@ -124,10 +129,11 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
-    m_iPlatoonCallsign 4
-    m_iSquadCallsign 4
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 8
    }
   }
   coords 2639.012 24.218 5410.077
@@ -147,9 +153,11 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
-    m_iPlatoonCallsign 4
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 6
    }
   }
   coords 2639 24.219 5412.125
@@ -169,10 +177,11 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
-    m_iPlatoonCallsign 4
-    m_iSquadCallsign 1
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 5
    }
   }
   coords 2639.036 24.219 5409.024
@@ -191,10 +200,11 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 2
-    m_iPlatoonCallsign 4
-    m_iSquadCallsign 3
+    m_iPlatoonCallsign 3
+    m_iSquadCallsign 7
    }
   }
   coords 2638.999 24.219 5411.122
@@ -214,7 +224,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 8
     m_iPlatoonCallsign 8
     m_iSquadCallsign 9
@@ -234,7 +245,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 8
     m_iPlatoonCallsign 8
     m_iSquadCallsign 10
@@ -254,7 +266,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 8
     m_iPlatoonCallsign 8
     m_iSquadCallsign 11
@@ -273,7 +286,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 8
     m_iPlatoonCallsign 8
     m_iSquadCallsign 12
@@ -292,7 +306,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 8
     m_iPlatoonCallsign 8
     m_iSquadCallsign 13
@@ -311,7 +326,8 @@ $grp SCR_AIGroup : "{7544247CE7FBC839}Prefabs/Groups/OPFOR/Russia/1980s/Motorise
    AIFormationComponent "{507E9DC12F541FE6}" {
     DefaultFormation "line"
    }
-   PS_GroupCallsignAssigner "{652F5C6E746ACE30}" {
+   PS_GroupCallsignAssigner "{63616C6C7369676E}" {
+    Enabled 1
     m_iCompanyCallsign 8
     m_iPlatoonCallsign 8
     m_iSquadCallsign 14
